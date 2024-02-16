@@ -6,7 +6,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "y18n": "^5.0.8"
+    "y18n": "^5.0.8",
+    "prop-types": "^15.7.2",
+    "react-router-dom": "^6.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

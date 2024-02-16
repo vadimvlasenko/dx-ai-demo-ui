@@ -15,4 +15,12 @@ class App extends Component {
   }
 }
 
+import BadgesDashboard from './components/BadgesDashboard';
+
+// ... rest of the App component ...
+
+<main>
+  <BadgesDashboard />
+</main>
+
 export default App;
