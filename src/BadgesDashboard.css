@@ -1,0 +1,47 @@
+.badges-dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+.badges-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.badge {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.badge:hover {
+  transform: scale(1.05);
+}
+
+.badge img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.badge-info {
+  text-align: left;
+}
+
+.badge-details {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .badges-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
