@@ -1,0 +1,45 @@
+.badges-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.badge {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  background-color: #f9f9f9; /* Light background for badge */
+}
+
+.badge:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow effect on hover */
+}
+
+.badge img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.badge h3 {
+  margin: 10px 0;
+  color: #333; /* Darker text for better readability */
+}
+
+.badge p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .badges-dashboard {
+    flex-direction: column;
+    align-items: center;
+  }
+}
